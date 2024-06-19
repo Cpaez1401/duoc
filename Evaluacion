@@ -1,10 +1,11 @@
-print("***************************")
-print("   Registro de Sueldos     ")
-print("***************************")
-print("1.-Registrar Trabajadores  ")
-print("2.-Listado de trabajadores ")
-print("3.-Salir                   ")
-print("***************************")
+print("*******************************")
+print("     Registro de Sueldos       ")
+print("*******************************")
+print("1.-Registrar Trabajadores      ")
+print("2.-Listado de trabajadores     ")
+print("3.-Imprimir planilla de sueldos") #Agregue esta opcion
+print("4.-Salir                       ")
+print("*******************************")
 op= " "
 trabajadores =[]
 cargos= ["CEO", "Desarrollador", "Analista de Datos"]
