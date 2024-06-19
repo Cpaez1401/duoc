@@ -1,0 +1,5 @@
+#Salida de calculo de sueldo por consola
+print('Trabajador: \t Cargo: \tSueldo Bruto: \t Desc. Salud: \t Desc. AFP: \t Líquido a pagar:')
+
+
+print(f'{nombre}\t {cargo} \t{sueldo_bruto} \t {desc_salud}\t {desc_afp}\t {liquidacion}')
