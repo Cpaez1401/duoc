@@ -1,0 +1,30 @@
+print("***************************")
+print("   Registro de Sueldos     ")
+print("***************************")
+print("1.-Registrar Trabajadores  ")
+print("2.-Listado de trabajadores ")
+print("3.-Salir                   ")
+print("***************************")
+op= " "
+trabajadores =[]
+cargos= ["CEO", "Desarrollador", "Analista de Datos"]
+
+def lista_trabajadares():
+    nombre= input(" Ingrese Nombre y Apellido de los Trabajadores: ")
+    
+    cargo=print("los cargos disponibles son: ", cargos)
+    
+    for i in nombre:
+        cargo= input(" Ingrese el nombre del cargo ")
+
+    sueldo_bruto= input(int("Ingrese Sueldo Bruto"))
+
+    desc_salud= sueldo_bruto * 0.07
+    desc_afp= sueldo_bruto * 0.12
+    liquidacion= sueldo_bruto - desc_afp - desc_afp
+
+    trabajador = {"Nombre: ", nombre, "Cargo: ", cargo, "Sueldo Bruto: ",sueldo_bruto, 
+                    "Descuento AFP: ", desc_afp, "Descuento Salud: ", desc_salud, 
+                    "Liquidción de Sueldo:" ,liquidacion }
+    trabajadores.append(trabajador)
+    print("el trabajador fue ingresado exitosamente")
