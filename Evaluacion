@@ -5,7 +5,7 @@ def menú():
     print("1.-Registrar Trabajadores  ")
     print("2.-Listado de trabajadores ")
     print("3.-Imprimir Planilla       ")
-    print("3.-Salir                   ")
+    print("4.-Salir                   ")
     print("***************************")
 
 trabajadores =[]
